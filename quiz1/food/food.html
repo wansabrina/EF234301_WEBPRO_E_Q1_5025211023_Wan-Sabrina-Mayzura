@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Visit Pekanbaru!</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+   </head>
+   <body class="w-full">
+      <!-- navbar -->
+      <header class="max-w-screen-xl mx-auto mb-8">
+         <nav class="px-4 sm:px-5 py-8 flex items-center justify-between space-x-12">
+            <div class="flex items-center space-x-8">
+               <a href="../index.html" id="logo" class="flex items-center space-x-2">
+                  <img src="../assets/img/logo.png" class="w-8 h-8" alt=" Logo">
+                  <h5 class="text-xl font-bold text-[#094067]">pku.</h5>
+               </a>
+               <div class="hidden px-5 py-3 w-[550px] border-2 border-[#094067] rounded-md lg:flex space-x-2 focus-within:ring-2 focus-within:ring-[#3DA9FC] ring-offset-2 transition duration-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                     <circle cx="10" cy="10" r="7"></circle>
+                     <line x1="21" y1="21" x2="15" y2="15"></line>
+                  </svg>
+                  <input class="w-full border-none outline-none focus:outline-none" type="text" placeholder="Cari Sesuatu">
+               </div>
+            </div>
+            <div class="lg:hidden">
+               <button>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                     <line x1="4" y1="6" x2="20" y2="6"></line>
+                     <line x1="4" y1="12" x2="20" y2="12"></line>
+                     <line x1="4" y1="18" x2="20" y2="18"></line>
+                  </svg>
+               </button>
+            </div>
+            <div class="hidden lg:flex items-center space-x-5">
+               <a href="../hometown/hometown.html">
+               <button class="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300">Hometown</button>
+               </a>
+               <a href="../food/food.html">
+               <button class="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300">Food</button>
+               <a href="../tourist/tourist.html">
+               <button class="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300">Tourist</button>
+               </a>       
+               <a href="../profile/profile.html">
+               <button class="px-5 py-3 text-white bg-[#3DA9FC] rounded-md shadow-[0_6px_30px_rgba(61,169,252,0.6)] font-semibold hover:bg-[#3498E4] transition-colors duration-300">Profile</button>
+               </a>       
+            </div>
+         </nav>
+      </header>
+      <main class="max-w-screen-xl mx-auto overflow-x-hidden px-4 sm:px-5">
+         <!-- Favorite Section -->
+         <section data-aos="zoom-in" data-aos-duration="1000" class="py-2 mb-16 text-center lg:text-left">
+            <span class="text-[#3DA9FC] inline-block font-semibold leading-tight mb-4">Makanan Khas Riau</span>
+            <div class="flex items-center justify-between mb-8 lg:mb-5">
+               <h3 class="text-4xl text-[#094067] font-extrabold leading-tight w-full lg:w-fit">Ikonik dan tentunya lezat!</h3>
+               <button class="hidden font-semibold text-[#3DA9FC] leading-tight lg:flex items-center space-x-2">
+                  Lihat Selengkapnya
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                     <polyline points="9 6 15 12 9 18"></polyline>
+                  </svg>
+               </button>
+            </div>
+            <div class="grid grid-cols-3 lg:grid-cols-3 gap-y-12 lg:gap-y-0 lg:gap-x-12 mb-8">
+               <div class="max-w-sm rounded overflow-hidden shadow-lg mb-10">
+                  <img src="https://cdnwpseller.gramedia.net/wp-content/uploads/2023/04/bolu-kemojo.jpg" alt="Bolu Kemojo">
+                  <div class="px-6 py-4">
+                     <div class="font-bold text-xl mb-2">Bolu Kemojo</div>
+                     <p class="text-gray-700 text-base">
+                        Bolu Kemojo adalah makanan penutup yang terkenal di Pekanbaru, Riau. Dikenal dengan rasa manisnya yang lezat, bolu ini sering menjadi hidangan istimewa dalam berbagai acara dan perayaan di kota ini.
+                     </p>
+                  </div>
+                  <div class="px-6 pt-4 pb-2">
+                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#BoluKemojo</span>
+                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#MakananManis</span>
+                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Pekanbaru</span>
+                  </div>
+               </div>
+               <div class="max-w-sm rounded overflow-hidden shadow-lg mb-10">
+                  <img src="https://i0.wp.com/bosmeal.com/wp-content/uploads/2020/02/Makanan-Khas-Riau-Roti-Jala.jpg?fit=1119%2C718&ssl=1" alt="Roti Jala">
+                  <div class="px-6 py-4">
+                     <div class="font-bold text-xl mb-2">Roti Jala</div>
+                     <p class="text-gray-700 text-base">
+                        Roti Jala adalah hidangan unik di Pekanbaru, Riau, yang terbuat dari adonan berlubang yang dibentuk seperti jala. Hidangan ini sering disajikan dengan kuah gula merah, membuatnya menjadi kombinasi yang lezat dari rasa manis dan gurih.
+                     </p>
+                  </div>
+                  <div class="px-6 pt-4 pb-2">
+                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#RotiJala</span>
+                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#MakananUnik</span>
+                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Pekanbaru</span>
+                  </div>
+               </div>
+               <div class="max-w-sm rounded overflow-hidden shadow-lg mb-10">
+                  <img src="https://cdn2.tstatic.net/tribunpekanbarutravel/foto/bank/images/kua-talam-durian-ini-merupakan-salah-satu-oleh-oleh-khas-pekanbaru.jpg" alt="Kue Talam Durian">
+                  <div class="px-6 py-4">
+                     <div class="font-bold text-xl mb-2">Kue Talam Durian</div>
+                     <p class="text-gray-700 text-base">
+                        Kue Talam Durian adalah makanan ringan yang sangat populer di Pekanbaru, Riau. Dikenal dengan tekstur yang lembut dan cita rasa durian yang khas, kue ini adalah pilihan sempurna bagi pecinta durian.
+                     </p>
+                  </div>
+                  <div class="px-6 pt-4 pb-2">
+                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#KueTalamDurian</span>
+                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#MakananRingan</span>
+                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Pekanbaru</span>
+                  </div>
+               </div>
+               <div class="max-w-sm rounded overflow-hidden shadow-lg mb-10">
+                  <img src="https://o-cdn-cas.sirclocdn.com/parenting/images/Mie_Sagu_www.riau.go.id.width-800.format-webp.webp" alt="Mie Sagu">
+                  <div class="px-6 py-4">
+                     <div class="font-bold text-xl mb-2">Mie Sagu</div>
+                     <p class="text-gray-700 text-base">
+                        Mie Sagu adalah hidangan unik di Pekanbaru, Riau, yang terbuat dari sagu. Mie ini memiliki tekstur yang unik dan sering disajikan dengan berbagai bumbu dan saus yang lezat.
+                     </p>
+                  </div>
+                  <div class="px-6 pt-4 pb-2">
+                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#MieSagu</span>
+                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#MakananUnik</span>
+                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Pekanbaru</span>
+                  </div>
+               </div>
+               <div class="max-w-sm rounded overflow-hidden shadow-lg mb-10">
+                  <img src="https://www.andalastourism.com/wp-content/uploads/2020/07/Lempok-Durian-1.jpg.webp" alt="Lempuk Durian">
+                  <div class="px-6 py-4">
+                     <div class="font-bold text-xl mb-2">Lempuk Durian</div>
+                     <p class="text-gray-700 text-base">
+                        Lempuk Durian adalah makanan ringan yang terbuat dari durian yang diolah menjadi pasta. Dikenal dengan rasa durian yang kaya dan manis, lempuk ini adalah camilan favorit di Pekanbaru, Riau.
+                     </p>
+                  </div>
+                  <div class="px-6 pt-4 pb-2">
+                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#LempukDurian</span>
+                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#MakananRingan</span>
+                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Pekanbaru</span>
+                  </div>
+               </div>
+               <div class="max-w-sm rounded overflow-hidden shadow-lg mb-10">
+                  <img src="https://cdn.yummy.co.id/content-images/images/20230623/2a9cb048c4795c39c727fccb316fdd06.jpg?x-oss-process=image/format,webp" alt="Gulai Patin">
+                  <div class="px-6 py-4">
+                     <div class="font-bold text-xl mb-2">Gulai Patin</div>
+                     <p class="text-gray-700 text-base">
+                        Gulai Patin adalah hidangan khas dari Pekanbaru, Riau, yang terdiri dari ikan patin yang dimasak dengan bumbu gulai yang kaya rasa. Hidangan ini merupakan sajian yang lezat dan kaya akan rempah-rempah.
+                     </p>
+                  </div>
+                  <div class="px-6 pt-4 pb-2">
+                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#GulaiPatin</span>
+                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#MasakanTradisional</span>
+                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Pekanbaru</span>
+                  </div>
+               </div>
+            </div>
+            <button class="font-semibold text-[#3DA9FC] leading-tight flex lg:hidden items-center mx-auto space-x-2">
+               Lihat Selengkapnya
+               <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <polyline points="9 6 15 12 9 18"></polyline>
+               </svg>
+            </button>
+         </section>
+         <!-- Footer Section -->
+         <section data-aos="fade-down">
+            <div class="py-12 grid grid-cols-6 lg:grid-cols-12 gap-y-8 lg:gap-y-0 lg:gap-x-8">
+               <div class="col-span-6 space-y-4">
+                  <img src="../assets/img/logo.png" class="w-8 h-8" alt=" Logo">
+                  <h5 class="text-xl font-bold text-[#094067]">pku.</h5>
+                  <p class="text-[#5F6C7B] tracking-wide leading-relaxed pr-8">Saya, Pemandu Wisata Terbaik, Akan Mengajak Kalian untuk Menjelajahi Keindahan Pekanbaru!</p>
+               </div>
+               <div class="col-span-6 sm:col-span-2">
+                  <h6 class="text-[#094067] text-sm font-bold uppercase tracking-wide mb-5">Halaman</h6>
+                  <ul class="space-y-2">
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Tentang Pekanbaru</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Makanan Lokal</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Destinasi Terdekat</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Profil Saya</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-span-6 sm:col-span-2">
+                  <h6 class="text-[#094067] text-sm font-bold uppercase tracking-wide mb-5">Tentang</h6>
+                  <ul class="space-y-2">
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Tentang Kami</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Kebijakan Privasi</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Galeri</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Bantuan</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-span-6 sm:col-span-2">
+                  <h6 class="text-[#094067] text-sm font-bold uppercase tracking-wide mb-5">Sosial Media</h6>
+                  <ul class="space-y-2">
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Twitter</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Facebook</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Instagram</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Tiktok</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="py-12 border-t border-[rgba(144,180,206,0.25)] text-center text-sm font-bold tracking-wide uppercase text-[#5F6C7B]">
+            </div>
+         </section>
+      </main>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+         AOS.init();
+         const swiper = new Swiper('.comment-slider', {
+           // Optional parameters
+           loop: true,
+           slidesPerView: 1,
+           spaceBetween: 30,
+           breakpoints: {
+             768: {
+               slidesPerView: 2,
+             },
+             // when window width is >= 1024px
+             1024: {
+               slidesPerView: 3,
+             },
+           },
+         
+           // If we need pagination
+           pagination: {
+             el: '.swiper-pagination',
+           },
+         
+           // Navigation arrows
+           navigation: {
+             nextEl: '.swiper-button-next',
+             prevEl: '.swiper-button-prev',
+           },
+         });
+      </script>
+   </body>
+</html>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Visit Pekanbaru!</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <link rel="stylesheet" href="assets/css/style.css">
+   </head>
+   <body class="w-full">
+      <!-- navbar -->
+      <header class="max-w-screen-xl mx-auto mb-8">
+         <nav class="px-4 sm:px-5 py-8 flex items-center justify-between space-x-12">
+            <div class="flex items-center space-x-8">
+               <a href="homepage.html" id="logo" class="flex items-center space-x-2">
+                  <img src="assets/img/logo.png" class="w-8 h-8" alt="logo">
+                  <h5 class="text-xl font-bold text-[#094067]">pku.</h5>
+               </a>
+               <div class="hidden px-5 py-3 w-[550px] border-2 border-[#094067] rounded-md lg:flex space-x-2 focus-within:ring-2 focus-within:ring-[#3DA9FC] ring-offset-2 transition duration-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                     <circle cx="10" cy="10" r="7"></circle>
+                     <line x1="21" y1="21" x2="15" y2="15"></line>
+                  </svg>
+                  <input class="w-full border-none outline-none focus:outline-none" type="text" placeholder="Cari Sesuatu">
+               </div>
+            </div>
+            <div class="lg:hidden">
+               <button>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                     <line x1="4" y1="6" x2="20" y2="6"></line>
+                     <line x1="4" y1="12" x2="20" y2="12"></line>
+                     <line x1="4" y1="18" x2="20" y2="18"></line>
+                  </svg>
+               </button>
+            </div>
+            <div class="hidden lg:flex items-center space-x-5">
+              <a href="./hometown/hometown.html">
+                <button class="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300">Hometown</button>
+                </a>
+                <a href="./food/food.html">
+                <button class="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300">Food</button>
+                <a href="./tourist/tourist.html">
+                <button class="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300">Tourist</button>
+                </a>       
+                <a href="./profile/profile.html">
+                <button class="px-5 py-3 text-white bg-[#3DA9FC] rounded-md shadow-[0_6px_30px_rgba(61,169,252,0.6)] font-semibold hover:bg-[#3498E4] transition-colors duration-300">Profile</button>
+                </a>   
+            </div>
+         </nav>
+      </header>
+      <main class="max-w-screen-xl mx-auto overflow-x-hidden px-4 sm:px-5">
+         <!-- Hero Section -->
+         <section data-aos="fade-up" data-aos-duration="1000" class="grid grid-cols-6 lg:grid-cols-12 mb-20">
+            <div class="col-span-6 text-center lg:text-left">
+               <span class="inline-block px-3 py-1.5 mb-4 bg-[#3DA9FC] bg-opacity-10 text-[#3DA9FC] font-semibold tracking-wide rounded-full">Pekanbaru? Siapa Takut.</span>
+               <h1 class="text-5xl sm:text-6xl md:text-7xl mb-4 font-extrabold text-[#094067] leading-tight">Jelajahi Kota <span class="text-[#3DA9FC]">Bertuah</span> Pekanbaru!</h1>
+               <p class="mb-6 text-base md:text-lg tracking-wide leading-8 font-medium text-[#5F6C7B] pr-0 md:pr-4 xl:pr-32">Saya, Pemandu Wisata Terbaik, Akan Mengajak Kalian untuk Menjelajahi Keindahan Pekanbaru!</p>
+               <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 justify-center lg:justify-start">
+                  <button class="w-full md:w-fit px-10 py-5 bg-[#3DA9FC] flex items-center justify-center md:justify-start text-white font-semibold rounded-md shadow-[0_6px_30px_rgba(61,169,252,0.6)] hover:bg-[#3498E4] group transition-colors duration-300">
+                  <a href="./hometown/hometown.html" class="text-white text-center">
+                  <span>Cari Tau</span>
+                  </a>
+                  </button>  
+               </div>
+            </div>
+            <div class="col-span-6 pl-24 hidden lg:block">
+               <img src="./assets/img/hero-image.webp" alt="">
+            </div>
+         </section>
+         <!-- Testimonial Section -->
+         <section data-aos="fade-down" data-aos-delay="100" data-aos-duration="700" class="relative w-[95%] mx-auto min-h-[742px] py-24 flex flex-col items-center bg-[#D8EEFE] bg-opacity-75 rounded-xl mb-24">
+            <span class="mb-4 text-[#3DA9FC] inline-block font-semibold leading-tight">Discover</span>
+            <h2 class="mb-4 text-4xl md:text-5xl text-[#094067] font-extrabold leading-tight text-center lg:text-left">Mereka Cari Apa Saja di Pekanbaru?</h2>
+            <p class="mb-8 text-base md:text-lg tracking-wide leading-8 font-medium text-[#5F6C7B] text-center px-2 lg:px-56">Kuliner yang Menggugah Selera, Destinasi Wisata yang Memikat, dan Apa Pun yang Anda Cari, Semuanya Ada di Pekanbaru, Menjadikan Petualangan Anda Tak Terlupakan!</p>
+            <div class="relative w-full">
+               <div class="absolute top-0 left-[-3%] w-[106%]">
+                  <div class="swiper comment-slider px-5 h-[340px]">
+                     <!-- Additional required wrapper -->
+                     <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide w-full max-h-[240px] md:max-h-[215px] xl:max-h-[260px] p-8 sm:px-12 sm:py-8 md:p-6 xl:p-8 rounded-xl shadow-lg bg-white flex flex-col justify-between">
+                           <p class="text-sm sm:text-lg md:text-sm xl:text-base text-[#5F6C7B] leading-relaxed">“Saya adalah pencinta makanan sejati, dan Pekanbaru memenuhi semua ekspektasi saya! Pekanbaru adalah surga bagi pecinta makanan”</p>
+                           <div class="flex flex-row justify-between">
+                              <div class="flex items-center space-x-4">
+                                 <img src="assets/img/avatar/carlos.jpg" class="w-10 xl:w-12 h-10 xl:h-12 rounded-full" alt="">
+                                 <div class="flex flex-col justify-between">
+                                    <h6 class="text-[#094067] font-medium">Carlos Sainz</h6>
+                                    <p class="text-sm text-[#5F6C7B]">Pembalap F1</p>
+                                 </div>
+                                 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                                 Cari Makanan
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide w-full max-h-[240px] md:max-h-[215px] xl:max-h-[260px] px-12 py-8 md:p-6 xl:p-8 rounded-xl shadow-lg bg-white flex flex-col justify-between">
+                           <p class="text-sm sm:text-lg md:text-sm xl:text-base text-[#5F6C7B] leading-relaxed">"Pekanbaru adalah kota yang sarat dengan sejarah dan budaya. Mengunjungi Saya menemukan banyak peninggalan bersejarah yang menginspirasi di setiap sudut kota ini."</p>
+                           <div class="flex flex-row justify-between">
+                              <div class="flex items-center space-x-4">
+                                 <img src="assets/img/avatar/lewis.jpg" class="w-10 xl:w-12 h-10 xl:h-12 rounded-full" alt="">
+                                 <div class="flex flex-col justify-between">
+                                    <h6 class="text-[#094067] font-medium">Lewis H</h6>
+                                    <p class="text-sm text-[#5F6C7B]">Pembalap F1</p>
+                                 </div>
+                                 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                                 Cari Destinasi
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide w-full max-h-[240px] md:max-h-[215px] xl:max-h-[260px] px-12 py-8 md:p-6 xl:p-8 rounded-xl shadow-lg bg-white flex flex-col justify-between">
+                           <p class="text-sm sm:text-lg md:text-sm xl:text-base text-[#5F6C7B] leading-relaxed">"Saya adalah penyuka alam yang mencari petualangan. Saya menemukan kedamaian dan keindahan di Pekanbaru yang membuat saya tak ingin pulang."</p>
+                           <div class="flex flex-row justify-between">
+                              <div class="flex items-center space-x-4">
+                                 <img src="assets/img/avatar/charles.jpg" class="w-10 xl:w-12 h-10 xl:h-12 rounded-full" alt="">
+                                 <div class="flex flex-col justify-between">
+                                    <h6 class="text-[#094067] font-medium">Charles L</h6>
+                                    <p class="text-sm text-[#5F6C7B]">Pembalap F1</p>
+                                 </div>
+                                 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                                 Cari Destinasi
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-pagination"></div>
+                     <div class="swiper-button-prev"></div>
+                     <div class="swiper-button-next"></div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- CTA Section -->
+         <section data-aos="zoom-in" data-aos-delay="50" data-aos-duration="500" class="relative w-full bg-[#D8EEFE] py-12 rounded-xl shadow-[0_6px_30px_rgba(9,64,103,0.13)] mb-24 overflow-hidden">
+            <div class="relative z-10 flex flex-col items-center px-4 sm:px-8">
+               <h3 class="text-2xl sm:text-3xl lg:text-4xl text-[#094067] text-center font-bold leading-tight px-0 lg:px-24 xl:px-48 mb-9">Berlangganan untuk selalu update tentang Pekanbaru!</h3>
+               <div class="w-full flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-4">
+                  <div class="px-6 py-4 w-full md:w-[550px] bg-white shadow-md rounded-md flex space-x-2 focus-within:ring-2 focus-within:ring-[#3DA9FC] ring-offset-2 transition duration-300">
+                     <input class="w-full border-none outline-none focus:outline-none" type="text" placeholder="Tulis alamat email kamu disini">
+                  </div>
+                  <button class="w-full sm:w-fit bg-[#EF4565] px-6 py-4 text-white font-bold shadow-md shadow-[rgba(239,69,101,0.25)] rounded-md hover:bg-[#d03753] transition-colors duration-300">Subscribe</button>
+               </div>
+            </div>
+            <div class="absolute top-[-140%] left-[-27%] w-[500px] h-[680px] border-8 border-[rgba(255,255,255,0.75)] rounded-full"></div>
+            <div class="absolute bottom-[-190%] left-[-25%] w-[500px] h-[680px] rotate-45 border-8 border-[rgba(255,255,255,0.75)] rounded-full"></div>
+            <div class="absolute top-[-140%] right-[-27%] w-[500px] h-[680px] border-8 border-[rgba(255,255,255,0.75)] rounded-full"></div>
+            <div class="absolute bottom-[-190%] right-[-16%] w-[500px] h-[680px] rotate-45 border-8 border-[rgba(255,255,255,0.75)] rounded-full"></div>
+         </section>
+         <!-- Footer Section -->
+         <section data-aos="fade-down">
+            <div class="py-12 grid grid-cols-6 lg:grid-cols-12 gap-y-8 lg:gap-y-0 lg:gap-x-8">
+               <div class="col-span-6 space-y-4">
+                  <img src="assets/img/logo.png" class="w-9 h-9" alt="">
+                  <h5 class="text-xl font-bold text-[#094067]">pku.</h5>
+                  <p class="text-[#5F6C7B] tracking-wide leading-relaxed pr-8">Saya, Pemandu Wisata Terbaik, Akan Mengajak Kalian untuk Menjelajahi Keindahan Pekanbaru!</p>
+               </div>
+               <div class="col-span-6 sm:col-span-2">
+                  <h6 class="text-[#094067] text-sm font-bold uppercase tracking-wide mb-5">Halaman</h6>
+                  <ul class="space-y-2">
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Tentang Pekanbaru</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Makanan Lokal</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Destinasi Terdekat</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Profil Saya</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-span-6 sm:col-span-2">
+                  <h6 class="text-[#094067] text-sm font-bold uppercase tracking-wide mb-5">Tentang</h6>
+                  <ul class="space-y-2">
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Tentang Kami</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Kebijakan Privasi</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Galeri</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Bantuan</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-span-6 sm:col-span-2">
+                  <h6 class="text-[#094067] text-sm font-bold uppercase tracking-wide mb-5">Sosial Media</h6>
+                  <ul class="space-y-2">
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Twitter</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Facebook</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Instagram</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300">Tiktok</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="py-12 border-t border-[rgba(144,180,206,0.25)] text-center text-sm font-bold tracking-wide uppercase text-[#5F6C7B]">
+            </div>
+         </section>
+      </main>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+         AOS.init();
+         const swiper = new Swiper('.comment-slider', {
+           // Optional parameters
+           loop: true,
+           slidesPerView: 1,
+           spaceBetween: 30,
+           breakpoints: {
+             768: {
+               slidesPerView: 2,
+             },
+             // when window width is >= 1024px
+             1024: {
+               slidesPerView: 3,
+             },
+           },
+         
+           // If we need pagination
+           pagination: {
+             el: '.swiper-pagination',
+           },
+         
+           // Navigation arrows
+           navigation: {
+             nextEl: '.swiper-button-next',
+             prevEl: '.swiper-button-prev',
+           },
+         });
+      </script>
+   </body>
+</html>
